@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(59, 51, 42);
+}
+
+.container{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+input, textarea, button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: cursive;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+    width: 80%;
+}
+
+button{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover{
+    background-color: rgb(72,72,72);
+    scale: 1.01;
+}
+
+.task{
+    background-color: rgb(230, 229, 229);
+    font-family: cursive;
+    margin: 2vmax;
+    padding: 30px;
+    color: rgba(0,0,0,0.868);
+    display: flex;
+    align-items: center;
+}
+
+.task > div{
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.delbtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    padding-bottom: 15px;
+}
+
+.delbtn:hover{
+    background-color: #ff0000;
+    scale: 1.1;
+}
+
+p{
+    font-weight: 600;
+}
